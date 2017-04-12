@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Iq2_12tsaaqola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_12tsaaqola.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh01_aliif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh01_aliif.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh25_nun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh25_nun.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_21nadzarokaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_21nadzarokaa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_26jhoatho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_26jhoatho.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh24_mim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh24_mim.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bt_kembali" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_kembali.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iq2_19walaalanaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_19walaalanaa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh30_ya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh30_ya.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tsa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tsa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghoin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ghoin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iq1_30a_thogho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_30a'thogho.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_34qobadho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_34qobadho.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_18famaayakuunulaka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_18famaayakuunulaka.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_16qoolutaqoosamuu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_16qoolutaqoosamuu.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_13khoroja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_13khoroja.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dhot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dhot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iq3_2laazimaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_2laazimaa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_21dasasho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_21dasasho.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iq2_11laajaza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_11laajaza.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="khaf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\khaf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iq1_4jaaba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_4jaaba.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_24syakhotho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_24syakhotho.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_7bahata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_7bahata.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nun.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iq1_36jakata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_36jakata.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_2ta_aro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_2ta'aro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_3qoonitaati" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_3qoonitaati.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_25dadhosho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_25dadhosho.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_13Thaalaba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_13Thaalaba.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh12_sin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh12_sin.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_18mafaazahaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_18mafaazahaa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_11tadzaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_11tadzaro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lam_alif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lam alif.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iq1_15hasada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_15hasada.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_20shosyaza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_20shosyaza.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_17tsabasa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_17tsabasa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_12baroda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_12baroda.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_4waqoba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_4waqoba.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh10_ro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh10_ro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mim.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iq2_27lakhotooya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_27lakhotooya.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_16sakhodza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_16sakhodza.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_6jasaba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_6jasaba.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_6laajala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_6laajala.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_35faroqo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_35faroqo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh28_hamzah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh28_hamzah.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh04_tsaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh04_tsaa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="syin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\syin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hh06_ha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh06_ha.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_6fiijiidiha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_6fiijiidiha.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_22ashodho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_22ashodho.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bt_kuis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_kuis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iq2_28banaanaka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_28banaanaka.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_4roofi_ati" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_4roofi'ati.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_18sasyasya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_18sasyasya.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_23syahaadata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_23syahaadata.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_7bidhoniini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_7bidhoniini.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hh05_jim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh05_jim.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_25fagodaqoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_25fagodaqoo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_5kafaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_5kafaro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_16dorobataa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_16dorobataa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hh15_dod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh15_dod.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_13fiimaakaanuu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_13fiimaakaanuu.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh11_zai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh11_zai.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="alif_a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alif-a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hh19_ghain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh19_ghain.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_37syakaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_37syakaro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh21_qof" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh21_qof.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_24wakazhooma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_24wakazhooma.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_9janaahika" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_9janaahika.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh08_dal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh08_dal.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_5tsajaja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_5tsajaja.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hamzah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hamzah.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iq1_3taata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_3taata.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_30laamarodo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_30laamarodo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh16_tho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh16_tho.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh02_baa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh02_baa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_8zabaaniyah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_8zabaaniyah.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh27_Ha_Besar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh27_Ha Besar.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_33khofagho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_33khofagho.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh22_kaf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh22_kaf.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_17haaruunawamuusa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_17haaruunawamuusa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_11fa_aqoruuha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_11fa'aqoruuha.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh14_shot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh14_shot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iq3_19lahaamaalikuuna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_19lahaamaalikuuna.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_39kholatho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_39kholatho.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_2abata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_2abata.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kho.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iq3_12yuriiduna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_12yuriiduna.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lam_alif1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lam alif1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iq2_14Laakholaaqo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_14Laakholaaqo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh17_jho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh17_jho.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh03_taa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh03_taa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_40ghomadho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_40ghomadho.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_45saHala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_45saHala.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh09_dzal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh09_dzal.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh20_fa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh20_fa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="khof" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\khof.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hh18_ain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh18_ain.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_38ja_ala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_38ja'ala.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_46syaya_a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_46syaya'a.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="la" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\la.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iq1_10khotada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_10khotada.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_14jarodza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_14jarodza.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh29_laa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh29_laa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iq1_32fataha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_32fataha.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_15maalahaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_15maalahaa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_9jakhoda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_9jakhoda.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_43kawana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_43kawana.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_42nazhofa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_42nazhofa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_3wajada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_3wajada.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_41samala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_41samala.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tho.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_ain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\'ain.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iq2_29shoofahaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_29shoofahaa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bt_backtomenu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_backtomenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iq3_15yasuuquuna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_15yasuuquuna.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shod.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iq2_10qoharo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_10qoharo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_1kaatibi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_1kaatibi.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh26_waw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh26_waw.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_7wahalala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_7wahalala.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_9qolama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_9qolama.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_26maahasana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_26maahasana.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_20thahahaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_20thahahaa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_1aaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_1aaa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_17fahajamaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_17fahajamaa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_44Hamasya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_44Hamasya.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="zai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zai.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iq2_22watsaaqohaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_22watsaaqohaa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_20wahuwaya_idzuhu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_20wahuwaya'idzuhu.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_10waabiina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_10waabiina.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_19rosyaha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_19rosyaha.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="jim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jim.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zho.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iq1_23doroba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_23doroba.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="waw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\waw.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iq1_28jhoa_a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_28jhoa'a.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq2_1ja_ala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_1ja'ala.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_27dajhosya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_27dajhosya.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_29ba_ata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_29ba'ata.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dzal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dzal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iq1_47zayana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_47zayana.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_8khotaja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_8khotaja.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh23_lam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh23_lam.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iq2_8dhohama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq2_8dhohama.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh07_kho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh07_kho.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\h.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iq3_5saafilahaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_5saafilahaa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_48amama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_48amama.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hh13_syim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh13_syim.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iq1_31syaghotho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iq1_31syaghotho.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Iq3_14walaayutsiqu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iq3_14walaayutsiqu.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bg_mainmenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_mainmenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_material" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_material.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_quiz1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_quiz1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_quiz2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_quiz2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_quiz3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_quiz3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_quizhh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_quizhh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_kembali1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_kembali.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gb_question1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gb_question1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gb_question2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gb_question2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gb_question3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gb_question3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gb_question4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gb_question4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_hh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_hh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_q1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_q1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_q2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_q2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_q3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_q3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_backtomenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_backtomenu.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_exit.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_menuhh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_menuhh.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_menuiq1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_menuiq1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_menuiq2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_menuiq2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_menuiq3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_menuiq3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kembali_ke_menu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kembali ke menu2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lat.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lat_g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lat_g.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_arrow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_arrow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_arrow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_arrow2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_arrow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_arrow3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_kuis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_kuis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_salam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_salam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hh_jpeg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh-jpeg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hh_jpeg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hh-jpeg1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KUIS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KUIS.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

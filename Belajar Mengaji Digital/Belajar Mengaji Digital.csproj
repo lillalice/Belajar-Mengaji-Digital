@@ -1,0 +1,785 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{64C92942-9150-4552-9425-8A0C4CAE9452}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Belajar_Mengaji_Digital</RootNamespace>
+    <AssemblyName>Belajar Mengaji Digital</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="QuizCompnt">
+      <HintPath>..\QuizCompnt\bin\Debug\QuizCompnt.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="04hhQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04hhQuiz.Designer.cs">
+      <DependentUpon>04hhQuiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03HurufHijaiyah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03HurufHijaiyah.Designer.cs">
+      <DependentUpon>03HurufHijaiyah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06iq1Quiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="06iq1Quiz.Designer.cs">
+      <DependentUpon>06iq1Quiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05Iqra1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05Iqra1.Designer.cs">
+      <DependentUpon>05Iqra1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="07Iqra2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="07Iqra2.Designer.cs">
+      <DependentUpon>07Iqra2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01MainForm.Designer.cs">
+      <DependentUpon>01MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02MainMenu.Designer.cs">
+      <DependentUpon>02MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="08iq2Quiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="08iq2Quiz.Designer.cs">
+      <DependentUpon>08iq2Quiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="09Iqra3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="09Iqra3.Designer.cs">
+      <DependentUpon>09Iqra3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="10iq3Quiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="10iq3Quiz.Designer.cs">
+      <DependentUpon>10iq3Quiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="11FinalQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11FinalQuiz.Designer.cs">
+      <DependentUpon>11FinalQuiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="01MainForm.resx">
+      <DependentUpon>01MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02MainMenu.resx">
+      <DependentUpon>02MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03HurufHijaiyah.resx">
+      <DependentUpon>03HurufHijaiyah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04hhQuiz.resx">
+      <DependentUpon>04hhQuiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05Iqra1.resx">
+      <DependentUpon>05Iqra1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06iq1Quiz.resx">
+      <DependentUpon>06iq1Quiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="07Iqra2.resx">
+      <DependentUpon>07Iqra2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="08iq2Quiz.resx">
+      <DependentUpon>08iq2Quiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="09Iqra3.resx">
+      <DependentUpon>09Iqra3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="10iq3Quiz.resx">
+      <DependentUpon>10iq3Quiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11FinalQuiz.resx">
+      <DependentUpon>11FinalQuiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_1aaa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_2abata.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_3taata.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_4jaaba.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_5tsajaja.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_6jasaba.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_7bahata.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_8khotaja.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_9jakhoda.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_10khotada.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_11tadzaro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_12baroda.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_13khoroja.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_14jarodza.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_15hasada.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_16sakhodza.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_17tsabasa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_18sasyasya.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_19rosyaha.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_20shosyaza.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_21dasasho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_22ashodho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_23doroba.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_24syakhotho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_25dadhosho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_26jhoatho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_27dajhosya.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_28jhoa%27a.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_29ba%27ata.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_30a%27thogho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_31syaghotho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_32fataha.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_33khofagho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_34qobadho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_35faroqo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_36jakata.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_37syakaro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_38ja%27ala.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_39kholatho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_40ghomadho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_41samala.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_42nazhofa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_43kawana.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_44Hamasya.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_45saHala.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_46syaya%27a.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_47zayana.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iq1_48amama.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_1kaatibi.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_2laazimaa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_3qoonitaati.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_4roofi%27ati.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_5saafilahaa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_6fiijiidiha.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_7bidhoniini.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_8zabaaniyah.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_9janaahika.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_10waabiina.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_11fa%27aqoruuha.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_12yuriiduna.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_13fiimaakaanuu.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_14walaayutsiqu.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_15yasuuquuna.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_16qoolutaqoosamuu.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_17haaruunawamuusa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_18famaayakuunulaka.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_19lahaamaalikuuna.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq3_20wahuwaya%27idzuhu.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_1ja%27ala.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_2ta%27aro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_3wajada.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_4waqoba.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_5kafaro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_6laajala.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_7wahalala.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_8dhohama.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_9qolama.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_10qoharo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_11laajaza.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_12tsaaqola.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_13Thaalaba.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_14Laakholaaqo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_15maalahaa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_16dorobataa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_17fahajamaa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_18mafaazahaa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_19walaalanaa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_20thahahaa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_21nadzarokaa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_22watsaaqohaa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_23syahaadata.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_24wakazhooma.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_25fagodaqoo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_26maahasana.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_27lakhotooya.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_28banaanaka.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_29shoofahaa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iq2_30laamarodo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%27ain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alif-a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ba.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dhot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dzal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghoin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamzah.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khaf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khof.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\la.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lam alif.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lam alif1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shod.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\syin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tsa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zai.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh01_aliif.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh02_baa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh03_taa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh04_tsaa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh05_jim.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh06_ha.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh07_kho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh08_dal.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh09_dzal.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh10_ro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh11_zai.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh12_sin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh13_syim.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh14_shot.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh15_dod.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh16_tho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh17_jho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh18_ain.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh19_ghain.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh20_fa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh21_qof.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh22_kaf.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh23_lam.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh24_mim.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh25_nun.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh26_waw.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh27_Ha Besar.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh28_hamzah.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh29_laa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh30_ya.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_kuis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_backtomenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_kembali.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hhfix.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iqro1fix.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iqro3fix.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kembali ke menu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iqro2fix.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iqro2fix1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_mainmenu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_material.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_quiz1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_quiz2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_quiz3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_quizhh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gb_question1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gb_question2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gb_question3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gb_question4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_hh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_q1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_q2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_q3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_backtomenu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_menuhh.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_menuiq1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_menuiq2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_menuiq3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_exit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_arrow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_arrow2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_arrow3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_kuis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_salam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kembali ke menu2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lat_g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh-jpeg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hh-jpeg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KUIS.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

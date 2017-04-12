@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Belajar Mengaji Digital", "Belajar Mengaji Digital\Belajar Mengaji Digital.csproj", "{64C92942-9150-4552-9425-8A0C4CAE9452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizCompnt", "QuizCompnt\QuizCompnt.csproj", "{F96A12BF-0C15-4E79-9EA1-B72B9D86A2DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C92942-9150-4552-9425-8A0C4CAE9452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C92942-9150-4552-9425-8A0C4CAE9452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C92942-9150-4552-9425-8A0C4CAE9452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C92942-9150-4552-9425-8A0C4CAE9452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96A12BF-0C15-4E79-9EA1-B72B9D86A2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96A12BF-0C15-4E79-9EA1-B72B9D86A2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96A12BF-0C15-4E79-9EA1-B72B9D86A2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96A12BF-0C15-4E79-9EA1-B72B9D86A2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

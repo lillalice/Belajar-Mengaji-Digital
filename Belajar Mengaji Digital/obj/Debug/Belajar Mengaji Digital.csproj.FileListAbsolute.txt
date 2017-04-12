@@ -1,0 +1,42 @@
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\bin\Debug\Belajar Mengaji Digital.exe.config
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\bin\Debug\Belajar Mengaji Digital.exe
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\bin\Debug\Belajar Mengaji Digital.pdb
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\bin\Debug\QuizCompnt.pdb
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar Mengaji Digital.csprojResolveAssemblyReference.cache
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.MainForm.resources
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.MainMenu.resources
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.HurufHijaiyah.resources
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.hhQuiz.resources
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.Iqra1.resources
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.iq1Quiz.resources
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.Iqra2.resources
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital._08iq2Quiz.resources
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital._09Iqra3.resources
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital._10iq3Quiz.resources
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital._11FinalQuiz.resources
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.Properties.Resources.resources
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar Mengaji Digital.csproj.GenerateResource.Cache
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar Mengaji Digital.exe
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar Mengaji Digital.pdb
+D:\extrack\Belajar Mengaji Digital\Belajar Mengaji Digital\bin\Debug\QuizCompnt.dll
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\bin\Debug\Belajar Mengaji Digital.exe.config
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar Mengaji Digital.exe
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar Mengaji Digital.pdb
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\bin\Debug\Belajar Mengaji Digital.exe
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\bin\Debug\Belajar Mengaji Digital.pdb
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\bin\Debug\QuizCompnt.dll
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\bin\Debug\QuizCompnt.pdb
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar Mengaji Digital.csprojResolveAssemblyReference.cache
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.MainForm.resources
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.MainMenu.resources
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.HurufHijaiyah.resources
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.hhQuiz.resources
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.Iqra1.resources
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.iq1Quiz.resources
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.Iqra2.resources
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital._08iq2Quiz.resources
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital._09Iqra3.resources
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital._10iq3Quiz.resources
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital._11FinalQuiz.resources
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar_Mengaji_Digital.Properties.Resources.resources
+D:\Downloads\Compressed\Belajar Mengaji Digital\Belajar Mengaji Digital\obj\Debug\Belajar Mengaji Digital.csproj.GenerateResource.Cache

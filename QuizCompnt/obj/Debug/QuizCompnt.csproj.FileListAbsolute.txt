@@ -1,0 +1,10 @@
+C:\Users\Lilla~\Documents\Visual Studio 2013\Projects\Belajar Mengaji Digital\QuizCompnt\bin\Debug\QuizCompnt.dll
+C:\Users\Lilla~\Documents\Visual Studio 2013\Projects\Belajar Mengaji Digital\QuizCompnt\bin\Debug\QuizCompnt.pdb
+C:\Users\Lilla~\Documents\Visual Studio 2013\Projects\Belajar Mengaji Digital\QuizCompnt\obj\Debug\QuizCompnt.csprojResolveAssemblyReference.cache
+C:\Users\Lilla~\Documents\Visual Studio 2013\Projects\Belajar Mengaji Digital\QuizCompnt\obj\Debug\QuizCompnt.dll
+C:\Users\Lilla~\Documents\Visual Studio 2013\Projects\Belajar Mengaji Digital\QuizCompnt\obj\Debug\QuizCompnt.pdb
+D:\extrack\Belajar Mengaji Digital\QuizCompnt\bin\Debug\QuizCompnt.dll
+D:\extrack\Belajar Mengaji Digital\QuizCompnt\bin\Debug\QuizCompnt.pdb
+D:\extrack\Belajar Mengaji Digital\QuizCompnt\obj\Debug\QuizCompnt.csprojResolveAssemblyReference.cache
+D:\extrack\Belajar Mengaji Digital\QuizCompnt\obj\Debug\QuizCompnt.dll
+D:\extrack\Belajar Mengaji Digital\QuizCompnt\obj\Debug\QuizCompnt.pdb
